@@ -21,6 +21,7 @@ class Chocolate
 
     public function eat()
     {
+        return null;
     }
 
 }

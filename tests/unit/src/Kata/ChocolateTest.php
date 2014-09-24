@@ -18,6 +18,7 @@ class ChocolateTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
+     * @test
      * @dataProvider dataProvider
      */
     public function it_should_pass_all_inputs($inputFile, $outputFile)
