@@ -21,4 +21,4 @@ Then, clone this project.
 Then add your classes to 'src/Kata' and your test cases to
 'src/Kata/Tests' and run 'php bin/phpunit' to run your tests.
 
-    php bin/phpunit
+    php bin/phpunit tests/unit

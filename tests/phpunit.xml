@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<phpunit colors="true"
+         stopOnError="false"
+         stopOnFailure="false"
+         bootstrap="./Bootstrap.php"
+         verbose="true">
+
+    <!-- Test suites -->
+    <testsuites>
+        <testsuite name="Kata Unit Tests">
+            <directory>./unit</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
