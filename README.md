@@ -18,7 +18,11 @@ Then, clone this project.
 
     git clone git@github.com:zmarquez/kata-chocolate.git
 
+And install dependences with composer.
+
+    php composer.phar install
+
 Then add your classes to 'src/Kata' and your test cases to
-'src/Kata/Tests' and run 'php bin/phpunit' to run your tests.
+'src/Kata/Tests' and run phpunit to run your tests.
 
     php bin/phpunit tests/unit
